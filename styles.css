@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #eeeeee;
+  }
+  main,section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    align-content: center;
+  }
+  #about{
+    padding: 0%;
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+  }
+#header {
+    width: 100%;
+    
+    color: black;
+    height:80px;
+    padding: 20px;
+    /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color:#eeeeee ;
+}
+#header-img{
+    width: 240px;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#nav-bar {
+    width: 50%;
+}
+
+.nav-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+.nav-link:hover{
+    background-color:  #959496;
+}
+#conatiner {
+   height: 80px;
+   width: 100%;
+   /* backgro
+   #und-color: aqua; */
+}
+#about {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 336px;
+    height: 89px;
+    align-items: center;
+}
+#email {
+    width: 275px;
+    height: 29px;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+}
+#submit {
+    background-color: #f1c40f;
+    height: 30px;
+    width: 150px;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.Feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 75%;
+   
+}
+.feature-img{
+    height: 50px;
+}
+.gothrough{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: start;
+    /* background-color: GREEN; */
+}
+#frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Pricing{
+    width: 100%;
+}
+#product {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: start;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    
+}
+.name{
+    background-color: #333;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 1%;
+
+}
+.pr-name{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#product-img{
+    height: 65%;
+}
+.button {
+    background-color: #f1c40f;
+    height: 30px;
+    width: 150px;
+    border: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #f1de90;
+}
+#button {
+    text-decoration: none;
+}
+ol{
+    list-style-type: none;
+}
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#footer {
+    color: #000;
+    text-decoration: none;
+    margin: 50px;
+}
+@media (max-width: 768px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    #header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        padding: 8px;
+        margin: 3px 0;
+    }
+
+    #product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 90%;
+        margin:  10px 0;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    #submit, .button {
+        width: 100%;
+    }
+
+    #about {
+        font-size: 20px;
+    }
+
+#conatiner {
+   height: 50vh;
+   width: 100%;
+   /* backgro
+   #und-color: aqua; */
+}
+}
